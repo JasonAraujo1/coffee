@@ -6,8 +6,109 @@
 
 body{
    height: 100vh;
+
+   background-image: url(https://media.istockphoto.com/id/1279105039/pt/foto/coffee-in-a-brown-and-orange-background.jpg?s=2048x2048&w=is&k=20&c=Hb3KFR5xG_yi2kP2295tROv4a33Dc-7xF14gcrNnov4=);
+   background-size: cover; /* Cobrir todo o elemento .all */
+   background-position: center; /* Centralizar a imagem */
 }
 
 body *{
  /*font-family: ;*/
+}
+
+.Mobile{
+    display: none;
+}
+.Desktop{
+    display: block;
+}
+
+
+
+
+
+.all{
+   margin-left: 20vw;
+   margin-right: 20vw;
+  
+}
+
+
+/*HEADER*/
+
+.bi-cup-hot-fill{
+    font-size: 30px;
+    color: white;
+}
+
+
+header{ 
+padding: 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+header ul{/*lista*/
+    list-style: none;
+    display: flex;
+    gap: 30px;
+
+    
+}
+
+
+header ul a{/*link lista*/
+    text-decoration: none;
+    color: white;
+}
+
+/*MAIN*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*HOVER*/
+
+
+
+
+
+
+
+
+
+
+
+/*MOBILE*/
+@media screen and (max-width:600px) {
+    
+   
+    .Mobile{
+        display: block;
+    }
+
+    .Desktop{
+        display: none;
+    }
+
+    body{
+        background-image: url(https://media.istockphoto.com/id/1464701056/pt/foto/coffee-cup-with-coffee-beans.jpg?s=2048x2048&w=is&k=20&c=VRvWOfGL-JGD3NpGqub60UPBb2CX3KLscSDEMhhuXGg=);
+
+    }
+
+    .all{
+        margin-left: 5vw;
+        margin-right: 5vw;
+       
+     }
 }
