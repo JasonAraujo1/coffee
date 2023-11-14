@@ -11,6 +11,7 @@ body{
    
    background-size: cover; /* Cobrir todo o elemento .all */
    background-position: center; /* Centralizar a imagem */
+   
 }
 
 body *{
@@ -48,6 +49,8 @@ body *{
 .all{
    margin-left: 20vw;
    margin-right: 20vw;
+    
+   
   
 }
 
@@ -85,6 +88,14 @@ header ul{/*lista*/
     
 }
 
+header ul li.ativo{/*lista*/
+    border-left: 2px solid red;
+    padding-left: 2px; 
+    color: black;
+    
+    transition: 0.2s;
+ }
+ 
 
 header ul a{/*link lista*/
     text-decoration: none;
@@ -151,7 +162,7 @@ main{
    
     
     width: 60px;
-    height: 97vh;
+    height: 90vh;
     
     padding: 1% 0px 0 60px ;
 
@@ -209,8 +220,6 @@ main{
 
 
 
-
-
 /*HOVER*/
 
 header ul a:hover,.btn-pegar-desktop button:hover, .btn-pegar-Mobile button:hover{
@@ -221,6 +230,7 @@ transition: 0.2s;
 header ul a:not(hover), .btn-pegar-desktop button:not(hover), .btn-pegar-Mobile button:not(hover){
 transition: 0.5s;
 }
+
     
 .btn-pegar-desktop button:hover, .btn-pegar-Mobile button:hover{
     transform: scale(1.1);
@@ -260,6 +270,16 @@ transition: 0.5s;
      
         color: var(--white);
 
+    }
+
+    header ul{/*lista*/
+        gap: 40px;
+        
+    }
+
+    header ul li.ativo{/*lista*/
+       color: var(--white);
+       transition: 0.2s;
     }
     
     header {
