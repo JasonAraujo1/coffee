@@ -125,6 +125,12 @@ main h1.Desktop{
     justify-content: center;
 
     
+
+    
+}
+
+main{
+    margin-top: 10%;
 }
 
 #h1-desktop{
@@ -258,6 +264,10 @@ transition: 0.5s;
     
     header {
         border-bottom: 1px solid var(--gray);
+    }
+
+    main{
+        margin-top: 0;
     }
 
     main h1.Mobile{
