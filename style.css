@@ -7,13 +7,25 @@
 body{
    height: 100vh;
 
-   background-image: url(https://media.istockphoto.com/id/1279105039/pt/foto/coffee-in-a-brown-and-orange-background.jpg?s=2048x2048&w=is&k=20&c=Hb3KFR5xG_yi2kP2295tROv4a33Dc-7xF14gcrNnov4=);
+   background-image: url(https://images.unsplash.com/photo-1493606278519-11aa9f86e40a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+   
    background-size: cover; /* Cobrir todo o elemento .all */
    background-position: center; /* Centralizar a imagem */
 }
 
 body *{
- /*font-family: ;*/
+    font-family: 'Manrope', sans-serif;
+}
+
+
+:root{
+    --white:#ffffff;
+    --white-header:#f5e0e0;
+    --black:#1a1919;
+    --box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.20);  
+    --txt-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);;
+    --gray:#c5c2c2;
+    --border-shadow: #000000;
 }
 
 .Mobile{
@@ -38,7 +50,8 @@ body *{
 
 .bi-cup-hot-fill{
     font-size: 30px;
-    color: white;
+    color:var(--black);
+    opacity: 70%;
 }
 
 
@@ -49,21 +62,90 @@ justify-content: space-between;
 align-items: center;
 }
 
+
+
+
 header ul{/*lista*/
     list-style: none;
     display: flex;
     gap: 30px;
 
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
     
 }
 
 
 header ul a{/*link lista*/
     text-decoration: none;
-    color: white;
+    color: var(--black);
+    opacity: 70%;
+}
+
+
+.btn-pegar-desktop button, .btn-pegar-Mobile button{
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 800;
+    color: var(--black);
+
+    background-color: transparent;
+    padding: 5px 30px;
+    border-radius: 5px;
+    outline:none;
+    border: none;
+    box-shadow: var(--box-shadow);
+    opacity: 70%;
+
 }
 
 /*MAIN*/
+
+
+main h1.Desktop{
+    color: var(--black);
+    opacity: 70%;
+  
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+#h1-desktop{
+    text-shadow: -1px -1px 0 var(--border-shadow), 1px -1px 0 var(--border-shadow), -1px 1px 0 var(--border-shadow), 1px 1px 0 var(--border-shadow);
+    color: var(--white);
+}
+
+
+
+
+/*MENU LATERAL*/
+
+.menu-lateral{
+    color: var(--white);
+    
+    width: 300px;
+    height: 100vh;
+    background-color: var(--black);
+
+    padding: ;
+   
+}
+
+header .Mobile ul{
+    flex-direction: column;
+}
+
+
+
+
+
 
 
 
@@ -79,10 +161,22 @@ header ul a{/*link lista*/
 
 /*HOVER*/
 
-
-
-
-
+header ul a:hover,.btn-pegar-desktop button:hover, .btn-pegar-Mobile button:hover{
+color: var(--black);
+opacity: 1;
+transition: 0.2s;
+}
+header ul a:not(hover), .btn-pegar-desktop button:not(hover), .btn-pegar-Mobile button:not(hover){
+transition: 0.5s;
+}
+    
+.btn-pegar-desktop button:hover, .btn-pegar-Mobile button:hover{
+    transform: scale(1.1);
+    transition:0.2s ;
+}
+.btn-pegar-desktop button:not(hover), .btn-pegar-Mobile button:not(hover){
+    transition:0.2s ;
+}
 
 
 
@@ -102,7 +196,7 @@ header ul a{/*link lista*/
     }
 
     body{
-        background-image: url(https://media.istockphoto.com/id/1464701056/pt/foto/coffee-cup-with-coffee-beans.jpg?s=2048x2048&w=is&k=20&c=VRvWOfGL-JGD3NpGqub60UPBb2CX3KLscSDEMhhuXGg=);
+        background-image: url(https://images.unsplash.com/photo-1541870730196-cd1efcbf5649?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 
     }
 
@@ -111,4 +205,10 @@ header ul a{/*link lista*/
         margin-right: 5vw;
        
      }
+     header ul a{/*link lista*/
+     
+        color: var(--white);
+
+    }
+    
 }
