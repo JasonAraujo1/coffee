@@ -166,7 +166,8 @@ main{
     flex-direction: column;
     color: var(--white);
     
-   
+    
+    transition: 0.2s;
     
     width: 60px;
     height: 90vh;
@@ -175,12 +176,13 @@ main{
 
    
     overflow: hidden;
-   
+ 
 }
 .menu-lateral ul.expandir{
     background-color: var(--black);
     width: 300px;
-    transition: 0.2s;
+    transition: 0.5s;
+    
 }
 
 
@@ -193,32 +195,37 @@ main{
     right: 0;
     top: 0;
     padding-top: 35px;/*icon menu*/
+
+    transition: 0.3s;
     
    
     
 }
 .menu-lateral.expandir{
     background-color:var(--black);
-    
-
+  
+    transition: 0.2s;
 }
 
 
 
 .bi-list{
     color: var(--gray-darker);
-
+  
+    transition: 0.5s;
 }
 
 .btn-exp{
     width: 100%;
     padding-left: 10px;
+    transition: 0.5s;
 }
 
 .btn-exp > i{
     font-size: 24px;
     cursor: pointer;
     margin-bottom: 10px;
+    transition: 0.5s;
 }
 
 
@@ -287,6 +294,7 @@ transition: 0.5s;
     header ul li.ativo{/*lista*/
        color: var(--white);
        transition: 0.2s;
+       border-left: 1px solid red;
       
     }
     
