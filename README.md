@@ -35,7 +35,7 @@ O projeto consiste em um site relacionado a café, com as seguintes funcionalida
 
 ## 🎨 Layout
 - Responsividade: O layout é adaptado para diferentes dispositivos, utilizando folhas de estilo específicas para desktop e mobile.
-- Você pode visualizar o layout do projeto através [DESSE LINK](<https://jasonaraujo1.github.io/blog/>). 
+- Você pode visualizar o layout do projeto através [DESSE LINK](<https://jasonaraujo1.github.io/coffee/>). 
 
 ## 🔍 Instruções do Site
 - Navegação: O menu de navegação permite acessar diferentes seções do site.
