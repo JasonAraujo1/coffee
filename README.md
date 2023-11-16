@@ -26,6 +26,7 @@
 - CSS: Estilização da página, incluindo o uso de estilos para diferentes dispositivos (responsividade).
 - Bootstrap Icons: Ícones utilizados no projeto, provenientes da biblioteca Bootstrap Icons.
 - JavaScript: utilizado para interações dinâmicas na página.
+- Figma e Canva para layout.
 
 ## 💻 Projeto
 O projeto consiste em um site relacionado a café, com as seguintes funcionalidades e seções:
